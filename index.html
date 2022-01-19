@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css styles/style.css" />
+    <!-- Arquivo de estilos owl-->
+    <link rel="stylesheet" href="css styles/owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css styles/owl/owl.theme.default.min.css" />
     <title>CopaFlix</title>
   </head>
   <body>
@@ -25,7 +28,14 @@
       <div class="selecao-principal">
         <div class="container">
           <h3 class="titulo">SELEÇÃO DO QATAR</h3>
-          <p class="descricao">A Seleção Catariana de Futebol representa o Catar nas competições de futebol da FIFA. O Catar sediará a Copa do Mundo FIFA de 2022, e consequentemente participará de sua primeira Copa com a sua seleção. Em 2019, o Catar conquistou o título mais importante de sua história, a Copa da Ásia de 2019, vencendo o Japão, por 3–1. A final foi disputada em Dubai, nos Emirados Árabes Unidos.</p>
+          <p class="descricao">
+            A Seleção Catariana de Futebol representa o Catar nas competições de
+            futebol da FIFA. O Catar sediará a Copa do Mundo FIFA de 2022, e
+            consequentemente participará de sua primeira Copa com a sua seleção.
+            Em 2019, o Catar conquistou o título mais importante de sua
+            história, a Copa da Ásia de 2019, vencendo o Japão, por 3–1. A final
+            foi disputada em Dubai, nos Emirados Árabes Unidos.
+          </p>
           <div>
             <button role="button" class="btn">
               <i class="fas fa-play"></i>
@@ -40,29 +50,52 @@
       </div>
     </main>
 
-    <!---->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- Área de carrosel de imagens, das seleções -->
+    <div class="carousel-selecoes">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img src="./images/alemanha.jpg" alt="Bandeira da Alemanha" />
+        </div>
+        <div class="item">
+          <img src="./images/argentina.jpg" alt="Bandeira da Argentina" />
+        </div>
+        <div class="item">
+          <img src="./images/belgica.jpg" alt="Bandeira da Belgica" />
+        </div>
+        <div class="item">
+          <img src="./images/brasil.jpg" alt="Bandeira do Brasil" />
+        </div>
+        <div class="item">
+          <img src="./images/croacia.jpg" alt="Bandeira da Croácia" />
+        </div>
+        <div class="item">
+          <img src="./images/dinamarca.jpg" alt="Bandeira da Dinamarca" />
+        </div>
+        <div class="item">
+          <img src="./images/espanha.jpg" alt="Bandeira da Espanha" />
+        </div>
+        <div class="item">
+          <img src="./images/franca.jpg" alt="Bandeira da Franca" />
+        </div>
+        <div class="item">
+          <img src="./images/holanda.jpg" alt="Bandeira da Holanda" />
+        </div>
+        <div class="item">
+          <img src="./images/inglaterra.jpg" alt="Bandeira da Inglaterra" />
+        </div>
+        <div class="item">
+          <img src="./images/suica.jpg" alt="Bandeira da Suiça" />
+        </div>
+      </div>
+    </div>
 
     <!--Área de scripts-->
     <script
       src="https://kit.fontawesome.com/83d6918771.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./javascript/owl/jquery.min.js"></script>
+    <script src="./javascript/owl/owl.carousel.min.js"></script>
+    <script src="./javascript/owl/main.js"></script>
   </body>
 </html>

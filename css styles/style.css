@@ -66,6 +66,7 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   height: 28.12rem;
+  margin-bottom: 10px;
 }
 
 .selecao-principal .container {
