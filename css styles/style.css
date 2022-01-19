@@ -95,6 +95,7 @@ a:hover {
   transition: 1.5s ease all;
 }
 
+/*Efeito especial com botões*/
 .btn:hover {
   background: var(--branco);
   color: black;
