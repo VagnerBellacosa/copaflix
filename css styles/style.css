@@ -7,21 +7,27 @@
 
 /*Declaração de variáveis*/
 :root {
-  --branco:#ffffff;
-  --vinho:#690342;
+  --branco: #ffffff;
+  --vinho: #690342;
 }
 
 /*Corpo do documento*/
 body {
   background-color: rgb(240, 216, 240);
+  color: var(--branco);
+  font-family: 'Arial', Times, serif;
 }
-
 
 /*Área de cabeçalho*/
 header .container {
   align-items: center;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+}
+
+.container {
+  margin-left: 1.25rem;
 }
 
 /*Cabeçalho, área logo*/
@@ -30,6 +36,7 @@ header .container {
   font-size: 40px;
   margin: 10px 10px;
 }
+
 span {
   color: var(--vinho);
 }
@@ -37,17 +44,40 @@ span {
 /*Cabeçalho, área de navegação*/
 header nav a {
   color: var(--vinho);
-  font-size: 20px;
-  margin-right: 20px;
+  font-size: 1.2rem;
+  margin-right: 1.25rem;
   text-decoration: none;
 }
 
 /*Efeito visual, área de navegação, ao passar o mouse*/
-a:hover{
+a:hover {
   background-color: black;
-  color:var(--branco);
+  color: var(--branco);
 }
 
-
-
 /*Área de conteúdo principal*/
+.selecao-principal {
+  align-items: flex-start;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/images/stadium.jpg');
+  background-size: cover;
+  font-size: 0.93rem;
+  flex-direction: column;
+  justify-content: center;
+  height: 28.12rem;
+}
+
+.selecao-principal .container {
+  width: 60%;
+}
+
+.selecao-principal .descricao {
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.titulo {
+  font-size: 2.5rem;
+  padding-top: 10%;
+}
