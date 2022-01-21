@@ -60,7 +60,7 @@ a:hover {
 .selecao-principal {
   align-items: flex-start;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('/images/nova-image.png');
+    url(/images/nova-image.jpg);
   background-size: cover;
   font-size: 16px;
   flex-direction: column;
